@@ -1,0 +1,298 @@
+.top,
+.top-navigation a {
+    background-color: #f2f2f2;
+}
+.top-navigation .sub-menu a,
+.top-navigation .sub-menu .sub-menu {
+    border-color: #e5e5e5;
+}
+.top,
+.top::before,
+.top::after,
+.top__container::before,
+.header::before,
+.header::after {
+    border-color: #efefef;
+}
+.top,
+.top-navigation a {
+    color: #999999;
+}
+.top-navigation a:focus,
+.top-navigation a:hover {
+    color: #8c8c8c;
+}
+.header,
+.top::before,
+.top::after,
+.top__container::before,
+.header::before,
+.header::after {
+    background-color: #ffffff;
+}
+@media (min-width: 992px) {
+    .header__navigation {
+        background-color: #ffffff;
+    }
+}
+.home-icon,
+.main-navigation a {
+    color: #333333;
+}
+.home-icon:hover,
+.main-navigation .menu-item:focus>a,
+.main-navigation .menu-item:hover>a {
+    color: #000000;
+}
+@media (max-width: 991px) {
+    .main-navigation .sub-menu a {
+        color: #999999;
+    }
+}
+@media (max-width: 991px) {
+    .header__navigation {
+        background-color: #f2f2f2;
+    }
+}
+@media (max-width: 991px) {
+    .header__navigation,
+    .main-navigation a,
+    .home-icon {
+        border-color: #e0e0e0;
+    }
+}
+@media (min-width: 992px) {
+    .main-navigation a,
+    .home-icon,
+    .main-navigation>.menu-item-has-children::after {
+        color: #999999;
+    }
+}
+@media (min-width: 992px) {
+    .home-icon:hover,
+    .main-navigation .menu-item:focus>a,
+    .main-navigation .menu-item:hover>a,
+    .main-navigation>.current-menu-item>a {
+        color: #333333;
+    }
+}
+@media (min-width: 992px) {
+    .main-navigation .sub-menu a,
+    .main-navigation>.current-menu-item>a::after {
+        background-color: #ce2e2e;
+    }
+}
+@media (min-width: 992px) {
+    .main-navigation .sub-menu .menu-item>a:hover {
+        background-color: #b72929;
+    }
+}
+@media (min-width: 992px) {
+    .main-navigation .sub-menu a,
+    .main-navigation .sub-menu .menu-item:first-of-type,
+    .main-navigation .sub-menu .sub-menu a {
+        border-color: #b72929;
+    }
+}
+@media (min-width: 992px) {
+    .main-navigation .sub-menu .menu-item-has-children::after {
+        color: #b72929;
+    }
+}
+@media (min-width: 992px) {
+    .main-navigation .sub-menu a,
+    .main-navigation .sub-menu .menu-item:focus>a,
+    .main-navigation .sub-menu .menu-item:hover>a {
+        color: #ffffff;
+    }
+}
+.page-header {
+    background-color: #f2f2f2;
+}
+.page-header {
+    border-color: #efefef;
+}
+.page-header h1,
+.page-header h2 {
+    color: #333333;
+}
+.page-header__subtitle {
+    color: #999999;
+}
+.breadcrumbs {
+    background-color: #ffffff;
+}
+.breadcrumbs a {
+    color: #333333;
+}
+.breadcrumbs a:hover {
+    color: #000000;
+}
+.breadcrumbs span>span {
+    color: #999999;
+}
+.content-area,
+.icon-box__subtitle {
+    color: #999999;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hentry__title,
+.hentry__title a,
+.page-box__title a,
+.latest-news--block .latest-news__title a,
+.accordion__panel .panel-title a,
+.icon-menu__link,
+.step__title,
+body.woocommerce-page ul.products li.product h3,
+.woocommerce ul.products li.product h3 {
+    color: #333333;
+}
+.icon-box .fa,
+.step:hover .step__number,
+.person-profile__social-icon:focus,
+.person-profile__social-icon:hover,
+.contact-profile__social-icon:focus,
+.contact-profile__social-icon:hover,
+.footer-top a.icon-container:hover,
+.portfolio-grid__card:focus .portfolio-grid__card-title,
+.portfolio-grid__card:hover .portfolio-grid__card-title,
+body.woocommerce-page ul.products li.product a:hover img,
+.woocommerce ul.products li.product a:hover img,
+body.woocommerce-page ul.products li.product .price,
+.woocommerce ul.products li.product .price,
+body.woocommerce-page .star-rating,
+.woocommerce .star-rating,
+body.woocommerce-page div.product p.price,
+body.woocommerce-page p.stars a,
+body.woocommerce-page ul.product_list_widget .amount,
+.woocommerce.widget_shopping_cart .total .amount {
+    color: #ce2e2e;
+}
+.contact-profile__name,
+.person-profile__tag,
+.latest-news--block .latest-news__date,
+.widget_calendar caption,
+.pagination .current,
+.portfolio-grid__nav-item.is-active::after,
+body.woocommerce-page .widget_shopping_cart_content .buttons .checkout,
+body.woocommerce-page button.button.alt,
+body.woocommerce-page .woocommerce-error a.button,
+body.woocommerce-page .woocommerce-info a.button,
+body.woocommerce-page .woocommerce-message a.button,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button,
+body.woocommerce-page #payment #place_order,
+body.woocommerce-page #review_form #respond input#submit,
+.woocommerce button.button.alt:disabled,
+.woocommerce button.button.alt:disabled:hover,
+.woocommerce button.button.alt:disabled[disabled],
+.woocommerce button.button.alt:disabled[disabled]:hover,
+body.woocommerce-page nav.woocommerce-pagination ul li span.current,
+body.woocommerce-page .widget_product_search .search-field+input,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a::after,
+body.woocommerce-page div.product .woocommerce-tabs ul.tabs li:hover a::after,
+body.woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle,
+body.woocommerce-page .widget_price_filter .ui-slider .ui-slider-range,
+.structurepress-table thead th {
+    background-color: #ce2e2e;
+}
+.accordion__panel:focus,
+.accordion__panel:hover,
+.testimonial,
+.logo-panel img:hover,
+.btn-primary,
+body.woocommerce-page .widget_shopping_cart_content .buttons .checkout,
+body.woocommerce-page nav.woocommerce-pagination ul li span.current {
+    border-color: #ce2e2e;
+}
+.portfolio-grid__card:focus .portfolio-grid__card-block::after,
+.portfolio-grid__card:hover .portfolio-grid__card-block::after {
+    border-bottom-color: #ce2e2e;
+}
+.contact-profile__container,
+.person-profile__container,
+.latest-news--block .latest-news__content {
+    border-top-color: #ce2e2e;
+}
+.brochure-box:focus,
+.brochure-box:hover,
+.sidebar .widget_nav_menu .menu>li.current-menu-item>a,
+.sidebar .widget_nav_menu .menu>li>a:focus,
+.sidebar .widget_nav_menu .menu>li>a:hover,
+.sticky .hentry__container,
+.hentry__container:hover,
+.latest-news--inline:focus,
+.latest-news--inline:hover,
+.latest-news--inline+.latest-news--more-news:hover,
+.open-position:hover .open-position__content-container,
+body.woocommerce-page .widget_product_categories .product-categories>li.current-cat>a,
+body.woocommerce-page .widget_product_categories .product-categories>li>a:focus,
+body.woocommerce-page .widget_product_categories .product-categories>li>a:hover {
+    border-left-color: #ce2e2e;
+}
+.btn-primary,
+body.woocommerce-page span.onsale,
+.woocommerce span.onsale {
+    background: #ce2e2e linear-gradient(to bottom, #ce2e2e, #c82d2d);
+}
+.btn-primary:hover,
+body.woocommerce-page button.button.alt:hover {
+    border-color: #b72929;
+}
+.btn-primary:hover,
+body.woocommerce-page .widget_product_search .search-field+input:hover,
+body.woocommerce-page .widget_product_search .search-field+input:focus,
+body.woocommerce-page button.button.alt:hover,
+body.woocommerce-page .woocommerce-error a.button:hover,
+body.woocommerce-page .woocommerce-info a.button:hover,
+body.woocommerce-page .woocommerce-message a.button:hover,
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover,
+body.woocommerce-page #payment #place_order:hover {
+    background: #b72929;
+}
+a {
+    color: #539ad0;
+}
+a:focus,
+a:hover {
+    color: #378ac8;
+}
+.footer-top {
+    background-color: #eeeeee;
+}
+.footer-top__headings {
+    color: #333333;
+}
+.footer-top {
+    color: #999999;
+}
+.footer-top .widget_nav_menu .menu a {
+    color: #999999;
+}
+.footer-bottom {
+    background-color: #eeeeee;
+}
+.footer-bottom {
+    color: #999999;
+}
+.footer-bottom a {
+    color: #333333;
+}
+@media (min-width: 992px) {
+    .header__logo img {
+        margin-top: 12px;
+    }
+}
+.page-header {
+    background-image: url('https://demo.proteusthemes.com/structurepress/wp-content/uploads/sites/28/2015/11/subpage_bg.jpg');
+    background-repeat: repeat;
+    background-position: top center;
+    background-attachment: scroll;
+}
+.fa[style*="edac15"] {
+    color: #ce2e2e !important;
+}

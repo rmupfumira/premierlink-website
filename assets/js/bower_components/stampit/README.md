@@ -1,0 +1,2 @@
+# stampit-bower
+Bower module
